@@ -16,7 +16,7 @@ MonoBehaviour:
   m_GUID: 25ee535a9b27ca448be584bd3f479a0b
   m_SerializeEntries:
   - m_GUID: 08e54000e23d1461a96002c851a10746
-    m_Address: Clown
+    m_Address: Enemy
     m_ReadOnly: 0
     m_SerializedLabels:
     - Prefabs
@@ -41,6 +41,18 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3a6182fe56bc9c54993c539ddec7be04
     m_Address: Boy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefabs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c9d4fbdc1919ae47a985f3919499fcf
+    m_Address: Projectile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefabs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ec122fb722f48248a717d2a76e7e351
+    m_Address: Player
     m_ReadOnly: 0
     m_SerializedLabels:
     - Prefabs
