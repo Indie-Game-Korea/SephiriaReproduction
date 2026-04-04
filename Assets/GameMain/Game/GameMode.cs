@@ -14,5 +14,6 @@ namespace ToyBoxNightmare
         /// Represents the survival mode or state within the application or game context.
         /// </summary>
         Survival,
+
     }
 }

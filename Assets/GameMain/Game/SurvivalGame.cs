@@ -70,7 +70,6 @@ namespace ToyBoxNightmare
         }
 
         // ─── 업데이트 ───
-
         public override void Update(float elapseSeconds, float realElapseSeconds)
         {
             base.Update(elapseSeconds, realElapseSeconds);
@@ -90,7 +89,6 @@ namespace ToyBoxNightmare
         }
 
         // ─── 스폰 ───
-
         private void SpawnPlayer()
         {
             int id = EntitySerialId.Next();
@@ -134,7 +132,6 @@ namespace ToyBoxNightmare
         }
 
         // ─── 이벤트 ───
-
         protected override void OnShowEntitySuccess(object sender, GameEventArgs e)
         {
             var ne = (ShowEntitySuccessEventArgs)e;
