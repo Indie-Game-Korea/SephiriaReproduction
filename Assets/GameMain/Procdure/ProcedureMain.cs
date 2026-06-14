@@ -6,7 +6,7 @@ namespace ToyBoxNightmare
 {
     public class ProcedureMain : ProcedureBase
     {
-        private SurvivalGame mGame = null;
+        private SurvivalGame mGame = null; 
 
         protected override void OnInit(ProcedureOwner procedureOwner)
         {
